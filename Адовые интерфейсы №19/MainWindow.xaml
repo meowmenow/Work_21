@@ -1,0 +1,30 @@
+﻿<Window x:Class="Адовые_интерфейсы__19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Адовые_интерфейсы__19"
+        mc:Ignorable="d"
+        Title="Программный листик" Height="500" Width="1000" Icon="e7177b0e2e64792429132d7ab7e039dba04009dc_full.jpg" ResizeMode="CanMinimize">
+    <Grid>
+        <Image Source="maxresdefault.jpg" Stretch="Fill"/>
+        <ListBox x:Name="listdrist" Margin="383,26,390,113" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Foreground="White"></ListBox>
+        <GroupBox Content="Управление списком" Margin="10,10,771,159" Foreground="White"></GroupBox>
+        <GroupBox Content="Заполнение значениям" Margin="771,26,10,277" Foreground="White"></GroupBox>
+        <Button Click="ras" Content="Расчёт" IsDefault="True" Margin="421,384,415,24" FontSize="14" FontFamily="Times New Roman" Background="Transparent" Foreground="White"></Button>
+        <Button Click="dob" Content="Тебе мало было? Добавить?" Margin="25,107,799,316" Foreground="White" Background="Black"></Button>
+        <Button Click="del" Content="Тебе много было? Удалить?" Margin="25,171,799,252" Background="Black" Foreground="White"></Button>
+        <Button Click="clear" Content="Clining Service"  Margin="25,238,799,185" Foreground="White" Background="Black"></Button>
+        <Button Click="zap" Content="Заполнить" Margin="800,125,36,298" Background="Black" Foreground="White" BorderBrush="Black"></Button>
+        <TextBox x:Name="Rez" IsReadOnly="True" Margin="839,344,44,24" Background="{x:Null}" Foreground="White"></TextBox>
+        <Label Content="Результат" Margin="839,439,23,-7" FontFamily="Times New Roman" FontSize="16" Foreground="White"/>
+        <TextBox x:Name="spis" Margin="25,0,799,378" Height="46" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White"></TextBox>
+        <TextBox x:Name="kol" Margin="800,0,36,363" Height="46" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White"/>
+        <Button Click="About" Content="О программе" Margin="25,344,799,79" RenderTransformOrigin="-0.517,0.39" Background="Black" Foreground="White"></Button>
+        <Button Click="poka"  Content="Exit" IsCancel="True" Margin="25,413,799,10" Foreground="White" Background="Black"></Button>
+        
+
+
+
+    </Grid>
+</Window>
